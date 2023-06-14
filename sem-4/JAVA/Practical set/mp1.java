@@ -1,0 +1,1 @@
+class test{	double a, b;	test(double a, double b)	{		this.a = a;		this.b = b;	}	void demo(test t)	{		t.a *= 2;		t.b /= 2;	}}class mp1{	public static void main(String [] args)	{		test ob = new test(20, 10);		System.out.println(ob.a + "\t" + ob.b);		ob.demo(ob);		System.out.println(ob.a + "\t" + ob.b);	}}

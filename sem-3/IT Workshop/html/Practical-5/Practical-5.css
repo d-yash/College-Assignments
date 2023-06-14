@@ -1,0 +1,91 @@
+.left {
+    background-color: white;
+    display: table;
+    display: inline-block;
+    width: 25%;
+}
+.right {
+    margin-top: -10px;
+    background-color: #1B1464;
+    display: table;
+    float: right;
+    width: 75%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: -8px;
+}
+.photo {
+    margin-top: 30px;
+}
+.left th {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    padding: 5px 20px 5px 5px;
+    text-align: left;
+}
+.left td {
+    font-size: 20px;
+    color: rgb(49, 49, 49);
+    padding: 5px;
+}
+.left a{
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+}
+.fname {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 65px;
+    margin-left: 30px;
+    color: #009432;
+}
+.lname {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 65px;
+    margin-left: 30px;
+    color: #009432;
+}
+.right th {
+    font-size: 18px;
+    color: white;
+}
+.right td {
+    color: #bdc3c7;
+}
+.sub th {
+    font-size: 22px;
+    text-align: left;
+}
+body pre {
+    margin: 0px;
+}
+.data {
+    width: 180px;
+    padding-right: 20px;
+    vertical-align: top;
+}
+.hobby li{
+    font-size: 20px;
+    color: white;
+}
+.left a:hover{
+    color: #009432;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.right header {
+    color: #2ed573;
+    font-size: 35px;
+    margin-left: 10px;
+    margin-top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: normal;
+    margin-bottom: -5px;
+}
+p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}

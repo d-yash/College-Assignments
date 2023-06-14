@@ -1,0 +1,66 @@
+				INTRODUCTION OF C++
+
+
+-> It is a combination of both low level and high level.
+-> Designed by bjarne stroustrup.
+-> C++ 14 was the famous one(cause is most stable).
+-> Latest version of C++ is 20.
+-> C (Procedural oriented(POP)) and C++, java, C#(object oriented(OOP))
+-> iostream- cout, cin, endl
+-> namespace- all header files are not only located in iostream but also in namespace like std(namespace to access function)
+-> :: - scope resolution operator
+-> return_data_type_of_member_function class_name :: member_function_name   (for the defintion of the member function outside the       class block)
+-> iostream- cout, cin(used to extract value), cerr, clog
+-> free form language(we can write whole code in one line also)
+-> cerr, clog, cout- used for displaying the output in simple terms
+-> cout- to display normal msg
+-> cerr- to display error msg immediately only on screen (it is an unbuffered standard class)... compiler runs this statement first..    we can
+-> clog- it is used to maintain log files.. 
+-> manipulators- they are helping functions to modify io.. and it do not change the value of the input
+-> endl though manipulator is not stored in <iomanip> but is stored in iostream or std namespace
+-> showpoint - shows floating point (only worked when after decimal 000 is present)
+-> noshowpoint- not shows even decimal (only works with decimal 00 is present)
+-> setprecision- it is in std namespace but is in <iomanip> header file.... it print the value after rounding off... 
+-> default precision- it by default set the precision acc to the data type
+-> setw- it provides space (like alignment)
+-> in c++ if we write only 10 instead of float then size of float is taken but displayed 10 only without decimal
+-> macros- #define created a symbolic constant and these constants are macros
+-> fstream- it covers files (to be continued...)
+-> When the function is not present acc to arguments it print the function that has a higher data type arguments and that function is invoked.... like print(10.1f) invokes print(double n);
+-> char -> int -> float -> double(max) -> error
+-> example ques member function and non member function
+-> Inline function: inline return_type function_name(parameter)...invoked in one line and expire in one line
+-> I.F. generally made without class
+-> An inline function is a function that is expanded in a line when it is invoked so as to save time. When an Inline function is called, the compiler generates a copy of the function code in place to avoid function call at run time. So advantages of inline function: main advantage of inline function is speed up of your program by avoiding the over head of function call and return from the function. So extra time and memory for passing the value to the argument and returning the value to the calling function are not needed. 
+-> unless object is not created there is no value of declaring the variables
+-> <cmath> has a constant M_PI for printing the value of PI with much precision
+-> Use getter function to get the value of 
+   private member out of the class and it can be also
+   manipulated 
+   :- It can't change the value of the member 
+   :- Provides good security
+-> Friend function can change the value of the members
+-> In function overloading if (there is int, float) and  
+  we pass argument as double then it will show error 
+  (Function is ambiguos)cause compiler won't be able 
+  to choose where to go
+-> c++ is block-structured language.
+   {
+	statements ..... 	
+   }
+-> Use of scope resolution ( :: ) ---> to define function outside the class
+				  ---> to get the value of global variable instead of local variable(::m)
+				  ---> to initialise static variable in class (we can't initialise inside class so we use scope resolution operator to do)
+-> Constructors are public functions which are automatically called when object is created.
+-> Return type of constructor is default class type.
+-> cin.getline(s,100, ' ');   :- it won't take value after giving space (define end of string)
+-> string s; --- to input the value of string ---> getline(cin,s);
+-> <cstring> = to use string functions.
+-> By default static members are initialized with zero.
+-> Visibility of static member must be private otherwise value of static member can be changed by any object so it will ruin your logic.
+-> Initialization list class_name(arguments) : x(i), y(j) {}
+-> If we don't pass any argument that is called prefix
+-> Default = prefix
+-> ++p = this is called prefix
+-> p++ = this is called sfix
+-> Datatype of the dummy argument must be int

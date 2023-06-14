@@ -1,0 +1,32 @@
+.listDepartment {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    margin-top: 21.5px;
+    margin-left: -6px;
+    /* background-color: rgba(255, 8, 0, 0.76); */
+    background-color: #f0932b;
+    font-size: 17px;
+}
+.listDepartment ul li{
+    width: 20px;
+}
+.listDepartment a{
+    width: 77px;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+}
+.departmentDrop:hover .listDepartment{
+    display: block;
+    position: absolute;
+    top:46px;
+}
+.listDepartment li:hover{
+    background-color: #f9ca24;
+    color: black;
+    margin: 0px;
+}

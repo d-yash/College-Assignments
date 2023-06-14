@@ -1,0 +1,3 @@
+import java.util.*;class grand{
+	int a = 24;	void printGrand()	{		System.out.println("Value of A is " + a);	}
+}class parent extends grand{	int b = 30;	void printParent()	{		System.out.println("Value of B is " + b);	}}class child extends parent{	int c = 2436;	void printChild()	{		System.out.println("Value of C is " + c);	}}class p10{	public static void main(String [] args)	{		child c = new child();		c.printGrand();		c.printParent();		c.printChild();	}}

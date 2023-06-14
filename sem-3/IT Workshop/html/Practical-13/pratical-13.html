@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+
+<head>
+    <script>
+        var number, temp;
+        function fun() {
+        //     number = parseInt(document.getElementById("num").value);
+        //     if (number) {
+        //         temp = document.getElementById("state");
+        //         temp.style.display = "block";
+        //         if (number % 2 == 0) {
+        //             document.getElementById("demo").innerHTML = myfun(number);
+        //             document.getElementById("ans").innerHTML = "Even";
+        //         }
+        //         else {
+        //             document.getElementById("demo").innerHTML = myfun(number);
+        //             document.getElementById("ans").innerHTML = "Odd";
+        //         }
+        //     }
+        // }
+        number = parseInt(document.getElementById("num").value);
+            if (number) {
+                // temp = document.getElementById("state");
+                // temp.style.display = "block";
+                if (number % 2 == 0) {
+                    alert('Even number');
+                }
+                else {
+                    alert('Odd number');
+                }
+            }
+        }
+        function myfun(number) {
+            return number;
+        }
+    </script>
+</head>
+
+<body>
+
+    <p>Enter the Number: <input id="num"><br></p style="margin:auto;">
+    <p><button onclick="fun()">Check</button></p>
+    <!-- <p id="state" style="display:none;"><span id="demo"></span> is an <span id="ans"></span> Number</p> -->
+
+</body>
+
+</html>

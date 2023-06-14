@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form data</title>
+    <script>
+        function get() {
+            var a, b, c, d, e, f
+
+            a = document.sampleForm.name.value
+            b = document.sampleForm.pass.value
+            c = " "
+            d = document.sampleForm.mail.value
+            e = document.sampleForm.num.value
+            f = document.sampleForm.clr.value
+            if (document.sampleForm.r[0].checked)
+                c = "Male"
+            else if (document.sampleForm.r[1].checked)
+                c = "Female"
+            else if (document.sampleForm.r[2].checked)
+                c = "Prefer not to say"
+            document.sampleForm.t3.value = a + "\n" + b + "\n" + c + "\n" + d + "\n" + e + "\n" + f
+        }
+    </script>
+    <style>
+        form {
+            font-size: 18px;
+        }
+
+        td {
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form name="sampleForm" style="position: absolute;">
+        <table>
+
+            <tr>
+                <td>Name:</td>
+                <td><input type=" text" name="name" placeholder="Enter your name" style="width: 300px;">
+        </td>
+        </tr>
+
+        <tr>
+            <td>Password:</td>
+            <td><input type="password" name="pass" placeholder="Enter password" style="width: 300px;"></td>
+        </tr>
+
+        <tr>
+            <td>Gender:</td>
+            <td>
+                Male<input type="radio" name="r">
+                Female<input type="radio" name="r">
+                Prefer not to say<input type="radio" name="r">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Email:</td>
+            <td><input type="email" name="mail" placeholder="Enter your mail" style="width: 300px;"></td>
+        </tr>
+
+        <tr>
+            <td>Phone:</td>
+            <td><input type="number" name="num" placeholder="Enter your number" style="width: 300px;"></td>
+        </tr>
+
+        <tr>
+            <td>color:</td>
+            <td><input type="color" name="clr" style="width: 60px;"></td>
+        </tr>
+        </table>
+
+        <table>
+
+            <tr>
+                <td><textarea rows="8" cols="40" name="t3" style="font-size: 15px;"></textarea></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" value="click" onClick="get()"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "cmath": "cpp",
+        "*.txt": "cpp",
+        "ostream": "cpp",
+        "iostream": "cpp",
+        "random": "cpp",
+        "xstring": "cpp",
+        "iosfwd": "cpp",
+        "bitset": "cpp",
+        "chrono": "cpp",
+        "algorithm": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Enabled",
+    "java.debug.settings.onBuildFailureProceed": true
+}

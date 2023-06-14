@@ -1,0 +1,46 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "design",
+            "request": "launch",
+            "mainClass": "design",
+            "projectName": "Codes_e8113d2d"
+        },
+        {
+            "type": "java",
+            "name": "consecutiveOnes",
+            "request": "launch",
+            "mainClass": "consecutiveOnes",
+            "projectName": "Codes_e8113d2d"
+        },
+        {
+            "type": "java",
+            "name": "checkDuplicate",
+            "request": "launch",
+            "mainClass": "checkDuplicate",
+            "projectName": "Codes_e8113d2d"
+        },
+        {
+            "type": "java",
+            "name": "Launch p2_1",
+            "request": "launch",
+            "mainClass": "p2_1",
+            "projectName": "Codes_e8113d2d"
+        },
+        {
+            "type": "java",
+            "name": "Launch demo",
+            "request": "launch",
+            "mainClass": "sem4.JAVA.demo",
+            "projectName": "Codes_e8113d2d"
+        },
+        {
+            "type": "java",
+            "name": "Launch demo",
+            "request": "launch",
+            "mainClass": "demo",
+            "projectName": "Codes_e8113d2d"
+        }
+    ]
+}

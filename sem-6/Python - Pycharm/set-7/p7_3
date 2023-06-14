@@ -1,0 +1,14 @@
+#Header
+#Following text explains about file handling in python
+
+f.read('filename', 'operating mode')
+operating modes can be as following
+- w
+- r
+- a
+- r+
+- a+
+- w+
+
+
+

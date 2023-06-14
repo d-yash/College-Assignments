@@ -1,0 +1,2 @@
+e : ";
+            cin>>aTime[i];

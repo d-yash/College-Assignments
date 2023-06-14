@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Feedback Form</title>
+    <style>
+        body {
+            background-color: #feca57;
+        }
+        header {
+            font-size: 45px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: #ee5253;
+            margin: -5px;
+            text-align: center;
+            padding: 15px;
+            border: dashed black 5px;
+        }
+        label {
+            font-size: 25px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        #email, #name, #no, #add{
+            font-size: 20px;
+            width: 550px;
+        }
+        select > option{
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="p3.html" method="POST" autocomplete="off">
+        <header>Student&nbspFeedback&nbspForm</header><br><br>
+        <label for="email" auto >E-mail : </label>
+        <input type="text" name="email" id="email"><br><br>
+        <label for="name">Name : </label>
+        <input type="text" name="name" id="name"><br><br>
+        <label for="no">Contact no. : </label>
+        <input type="Number" name="no" id="no"><br><br>
+        <label for="add">Address : </label>
+        <textarea name="add" id="add" cols="100" rows="4" placeholder="Enter your adderess here" style="vertical-align: text-top;"></textarea><br><br>
+        <label for="div">Division : </label>
+        <input type="radio" name="div" id="B"><label for="b">B</label><br>
+        <input type="radio" name="div" id="D" style="margin-left: 104px;"><label for="b">D</label><br>
+        <input type="radio" name="div" id="E" style="margin-left: 104px;"><label for="b">E</label><br>
+        <input type="radio" name="div" id="b*" style="margin-left: 104px;"><label for="b">b*</label><br><br>
+        <label for="branch" id="branch">Branch : </label>
+        <select name="sbranch" id="sbranch" style="padding: 5px; font-size: 18px; margin-left: 10px;">
+            <option value="ce">Computer Enginnering</option>
+            <option value="it">information Technology</option>
+            <option value="me">Mechanical Enginnering</option>
+            <option value="civil">Civil Enginnering</option>
+            <option value="auto">Auto Mobile</option>
+        </select>
+        <br><br>
+        <label for="Hobbies">Hobbies : </label>
+        <input type="checkbox" id="dancing" name="dancing">
+        <label for="hobby1">Dancing</label><br>
+        <input type="checkbox" id="singing" name="singing" style="margin-left: 105px;">
+        <label for="hobby2">Singing</label><br>
+        <input type="checkbox" id="reading" name="reading" style="margin-left: 105px;">
+        <label for="hobby3">Reading</label><br><br><br>
+        <input type="reset" style="width: 90px; height: 30px; font-size: 20px; margin-left: 30px;">
+        <input type="submit" style="width: 90px; height: 30px; font-size: 20px; margin-left: 15px;">
+    </form>
+</body>
+</html>
