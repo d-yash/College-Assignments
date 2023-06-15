@@ -1,0 +1,40 @@
+.container{
+    /* display: flex; */
+    height: 100vh;  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tableContainer, .content{
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+}
+
+.marksTable{
+    background-color: rgb(191, 191, 241);
+    border: 2px black solid;
+    font-size: 20px;
+    border-collapse: collapse;
+    margin-left: 15px;
+}
+
+.marksTable th, 
+.marksTable td{
+    padding: 30px;
+    border: 3px black solid;
+}
+
+.tableHeading{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
+    font-size: 25px;
+}
+
+.tableCaption{
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+    padding-top: 10px;
+} 
