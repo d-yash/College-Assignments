@@ -1,0 +1,4 @@
+git init
+git add .
+git commit -m "masg"
+git push -u origin main

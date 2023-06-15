@@ -35,5 +35,8 @@ public class digitmul {
         else{
             System.out.println(ans);
         }
+
+        int value = Integer.valueOf(ans);
+        System.out.println(value);
     }
 }
