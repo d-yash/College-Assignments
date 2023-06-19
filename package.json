@@ -1,5 +1,17 @@
 {
+  "scripts": {
+    "start": "vite"
+  },
   "dependencies": {
-    "prompt-sync": "^4.2.0"
+    "next-google-fonts": "^2.2.0",
+    "prompt-sync": "^4.2.0",
+    "react-router-dom": "^6.13.0",
+    "react-transition-group": "^4.4.5",
+    "vit": "^0.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2"
   }
 }
